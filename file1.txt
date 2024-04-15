@@ -1,2 +1,2 @@
 # FILE1.TXT
-user - Updated on 2024-09-22
+detailed - Updated on 2024-09-22
