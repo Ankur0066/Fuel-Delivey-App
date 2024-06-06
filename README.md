@@ -170,7 +170,141 @@ use commit hash
  git log 
  give log of all the commit made in the repo
  
- 
+ Git Commands and Usage Guide
+
+This guide contains Git commands and their usage, including common issues and their resolutions.
+
+Basic Commands
+
+Cloning a Repository
+git clone <repository_link>
+
+Checking the Status
+git status
+
+Adding Files to Staging
+To add all files to staging:
+git add .
+
+To add a specific file to staging:
+git add <file_name>
+# Example: git add ankur.html
+
+Committing Changes
+git commit -m "some message"
+
+Pushing Changes to Remote
+git push
+
+Initializing a Repository
+git init
+
+Adding Remote Repository
+git remote add origin <remote_repository_link>
+
+Checking Remote Repository
+git remote -v
+
+Branching
+
+Listing Branches
+git branch
+
+Renaming Current Branch
+git branch -M main
+
+Creating a New Branch
+git checkout -b <new_branch_name>
+
+Switching Between Branches
+git checkout <branch_name>
+
+Deleting a Branch
+git branch -d <branch_name>
+
+To force delete without merging:
+git branch -D <branch_name>
+
+Pushing New Branch to Remote
+Set upstream and push:
+git push --set-upstream origin <branch_name>
+
+Merging and Rebasing
+
+Merging Branches
+git merge <branch_name>
+# Example: git merge testing
+
+Rebasing Branches
+Set rebase mode:
+git config pull.rebase true
+
+Disable rebase mode:
+git config pull.rebase false
+
+Fast-forward only:
+git config pull.ff only
+
+Pulling Changes
+git pull origin main
+
+Common Issues
+
+No Remote Link Set
+Error:
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+Fetch First Error
+Error:
+git push origin main
+! [rejected] main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Ankur0066/desktop-tutorial.git'
+
+Solution:
+git pull origin main
+# If pull gives same error
+git config pull.rebase false
+git pull origin main
+
+Wrong Remote Link
+To change remote link:
+git remote remove origin
+git remote -v
+
+Viewing Differences
+
+Viewing Differences Between Branches
+git diff main
+
+Merge Conflicts
+
+Resolving Merge Conflicts
+After resolving conflicts:
+git add .
+git commit -m "resolved merge conflict"
+
+Resetting Staged Files
+To unstage changes:
+git reset <file_name>
+# Example: git reset app.js
+
+To undo last commit:
+git reset HEAD~1
+
+To reset multiple commits using commit hash:
+git reset <commit_hash>
+
+To hard reset:
+git reset --hard
+
+Viewing Commit Logs
+git log
+
+Notes
+
+These commands and comments provide a quick reference to essential Git operations, including common tasks, troubleshooting, and managing branches.
+
  
  
  
