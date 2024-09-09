@@ -9,7 +9,7 @@
 # ====================================================================
 
 # Path to your local Git repository
-REPO_PATH="C:\Users\ankur\Github\Personal-Portfolio"
+REPO_PATH="C:\Users\ankur\Github\read-me"
 
 # Array of commit messages
 commit_messages=(
