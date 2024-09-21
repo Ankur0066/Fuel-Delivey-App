@@ -118,8 +118,8 @@ get_last_commit_number() {
 last_commit=$(get_last_commit_number)
 
 # Iterate over the date range and create random commits
-current_date="2024-04-28"
-end_date="2024-05-07"
+current_date="2024-05-08"
+end_date="2024-05-21"
 
 while [[ "$current_date" < "$end_date" ]]; do
     num_commits=$((RANDOM % 4 + 2))  # Random number between 2 and 5
