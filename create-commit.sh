@@ -13,16 +13,56 @@ REPO_PATH="C:\Users\ankur\Github\read-me"
 
 # Array of commit messages
 commit_messages=(
-    "Update initial setup configuration"
-    "Refactor and enhance README.md content"
-    "Modify config file for better environment settings"
-    "Optimize and update main.js logic"
-    "Improve styles in style.css"
-    "Revise index.html structure"
-    "Enhance utility script functionality"
-    "Update database schema with new fields"
-    "Refine .gitignore rules"
-    "Revise Dockerfile for improved build process"
+    Add project title and initial description
+Add installation instructions section
+Include usage examples section
+Add configuration details section
+Add contribution guidelines
+Include license information
+Add project setup prerequisites
+Add quick start guide
+Expand installation instructions
+Add troubleshooting tips
+Update usage examples with new features
+Add API documentation section
+Include FAQ section
+Update contribution guidelines with code style rules
+Add information about code of conduct
+Update license information with license type
+Add acknowledgements section
+Include detailed installation steps
+Add links to external resources
+Update project setup prerequisites with additional details
+Add detailed usage scenarios
+Include examples of configuration files
+Add changelog section
+Update API documentation with new endpoints
+Include contact information for maintainers
+Add a section on project goals and objectives
+Update FAQ with new common questions
+Expand troubleshooting tips with common issues
+Add a section on known issues
+Update acknowledgements with contributors
+Add release notes section
+Include screenshots of the project in action
+Update project goals and objectives with recent changes
+Add a glossary of terms used in the project
+Update contribution guidelines with new processes
+Add instructions for running tests
+Include a section on how to report bugs
+Update configuration details with example setups
+Add a section on performance considerations
+Include a section on security practices
+Update installation instructions with new dependencies
+Add migration guide for version updates
+Include a section on advanced usage
+Update usage examples with user feedback
+Add a section on project architecture
+Include a roadmap of future features
+Update troubleshooting tips with recent issues
+Add a section on community and support
+Update contact information with new team members
+Add a final review and polish the README
 )
 
 # Check if repository path exists
@@ -51,8 +91,8 @@ modify_file() {
 
 # Function to generate a random date within a specific range
 generate_random_date() {
-    local start_date=$(date -d "2024-07-15" +%s)
-    local end_date=$(date -d "2024-07-30" +%s)
+    local start_date=$(date -d "2024-04-05" +%s)
+    local end_date=$(date -d "2024-04-11" +%s)
     local random_date=$(date -d @$((start_date + RANDOM % (end_date - start_date))) +"%Y-%m-%d")
     echo $random_date
 }
