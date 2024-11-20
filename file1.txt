@@ -1,2 +1,2 @@
 # FILE1.TXT
-project - Updated on 2024-11-27
+information - Updated on 2024-11-27
