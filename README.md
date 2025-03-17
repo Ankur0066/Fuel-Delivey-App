@@ -36,9 +36,12 @@
 
 [@@ Watch the video @@](https://drive.google.com/file/d/1MWCiAwNSghk5P1yexILBuqKHsMktb6wq/view?usp=sharing)
 
-<a href="https://drive.google.com/file/d/1MWCiAwNSghk5P1yexILBuqKHsMktb6wq/view?usp=sharing" >
-    <img src="fdondms/images/login-bg.jpg" alt="Watch the video" width="900" height="400">
-</a>
+
+<div align="center">
+    <a href="https://drive.google.com/file/d/1MWCiAwNSghk5P1yexILBuqKHsMktb6wq/view?usp=sharing">
+        <img src="https://i.sstatic.net/Vp2cE.png" alt="Watch the video" width="800" height="400">
+    </a>
+</div>
 
 
 
