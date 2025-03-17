@@ -34,9 +34,8 @@
   <a href="#license">License</a>
 </p>
 
-<div>
-<iframe src="https://drive.google.com/file/d/1MWCiAwNSghk5P1yexILBuqKHsMktb6wq/preview" width="640" height="480" allow="autoplay"></iframe>
-</div>
+[![Watch the video](fdondoms/images/login-bg.jpg)](https://drive.google.com/file/d/1MWCiAwNSghk5P1yexILBuqKHsMktb6wq/view?usp=sharing)
+
 
 ## Key Features
 
